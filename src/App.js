@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import User from "./User";
+import Greet from './Components/Greet';
+import Welcome from './Components/Welcome';
 
 function App() {
+      const userName="Yash";
+      const userId="10";
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Welcome/>
+      {/* App Component
+      <User a={userName} userId={userId}/>
+      <Greet name="Yash">
+      <p>Thia is a children.</p>
+      </Greet>
+      <Greet name="Meet">
+      <button>Action</button>
+      </Greet>
+      <Welcome name="Yash" /> */}
+      </div>
   );
 }
 
