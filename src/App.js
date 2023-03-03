@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
     <Welcome/>
-      {/* App Component
+      App Component
       <User a={userName} userId={userId}/>
       <Greet name="Yash">
       <p>Thia is a children.</p>
@@ -17,7 +17,7 @@ function App() {
       <Greet name="Meet">
       <button>Action</button>
       </Greet>
-      <Welcome name="Yash" /> */}
+      <Welcome name="Yash" />
       </div>
   );
 }
